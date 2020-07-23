@@ -6,8 +6,9 @@ subtitle: web application penster | bug hunter
 
 My name is mohit sharma am a self taught web application pentester who loves to break security with the following skills:
 
-- web application penetration testingdge with
+- web application penetration testing
 - bug hunting 
+- network pentesting 
 
 ## About me
 
