@@ -15,7 +15,7 @@ i am an independent web application pentester as well as bug hunter who loves to
 
 you can contact me on: 
 
-- facebook: https://www.facebook.com/mohit20000/
+-  [facebook] : (https://www.facebook.com/mohit20000/)
 - twitter: https://twitter.com/mohit29295572
 - instagram: https://www.instagram.com/mohit_1337/
 
