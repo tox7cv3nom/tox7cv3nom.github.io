@@ -1,16 +1,24 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: web application penster | bug hunter
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is mohit sharma am a self taught web application pentester who loves to break security with the following skills:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- web application penetration testingdge with
+- bug hunting 
 
-What else do you need?
+## About me
 
-### my history
+i am an independent web application pentester as well as bug hunter who loves to taught other people and makes the community better i created this blog to share knowledge with peoples of community
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+you can contact me on: 
+
+- facebook: https://www.facebook.com/mohit20000/
+- twitter: https://twitter.com/mohit29295572
+- instagram: https://www.instagram.com/mohit_1337/
+
+Any private programs? 
+ 
+- send it to nhibtaungamain@gmail.com
