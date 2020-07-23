@@ -15,10 +15,10 @@ i am an independent web application pentester as well as bug hunter who loves to
 
 you can contact me on: 
 
-- facebook : [facebook](@http://facebook.com/mohit20000/)
-- twitter: [twitter](@https://twitter.com/mohit29295572)
-- instagram: [insta](@https://instagram.com/mohit_1337)
+- facebook : <a href="https://www.facebook.com/mohit20000" rel="nofollow">v3nom</a>
+- twitter: https://twitter.com/mohit29295572
+- instagram: https://www.instagram.com/mohit_1337/
 
 Any private programs? 
  
-- send it to [gmail](nhibtaungamain@gmail.com)
+- send it to nhibtaungamain@gmail.com
