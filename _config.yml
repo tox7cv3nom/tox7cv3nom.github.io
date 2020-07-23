@@ -13,10 +13,12 @@ author: Mohit sharma
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - writeup: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  bug hunting:
+    - writeup: ""
+  tutorial:
+    - xml injection: ""
+    - lfi: ""
+    - rce: ""
 
 # --- Logo --- #
 
