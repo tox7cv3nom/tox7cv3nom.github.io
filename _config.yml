@@ -14,7 +14,7 @@ author: Mohit sharma
 navbar-links:
   About Me: "aboutme"
   bug hunting:
-    - writeup: "https://tox7cv3nom.github.io/authentication_bypass-leads-to_idor.md"
+    - writeup: "https://tox7cv3nom.github.io/2020-07-28-authentication_bypass-leads-too_idor"
   tutorial:
     - xml injection: ""
     - lfi: ""
