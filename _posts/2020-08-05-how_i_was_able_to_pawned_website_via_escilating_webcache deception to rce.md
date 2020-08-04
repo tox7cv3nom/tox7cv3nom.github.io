@@ -21,7 +21,7 @@ but there was the problem i can only see the content of index.php when i go to s
 
 **escilating to rce** 
 
-after spending few hours with capturing and sending request i saw there was a hidden java file in source code of index.php thanx to: <a href="https://www.waybackmachine.com>wayback</a>
+after spending few hours with capturing and sending request i saw there was a hidden java file in source code of index.php thanx to: <a href="https://www.waybackmachine.com">wayback</a>
 after reaading the java file i got few parameters but most intresting waas parameter "?url=" and file?=...whic was something like "https://www.expample.php?url=" i tried to do ssrf but failed seems like htttp and https:// protocol was 
 banned by WAF i tried various combinations like htTps:// , HTTPs:// etc. luckily, HttPs:// workred in my case and i got open redirection then i tried to test for remote file inculsion 
 i created a payload for retriving "/etc/passwd" file i hosted that paylaod on my website and tried to fetch that mine v=webiste to vulnerable website like this:
