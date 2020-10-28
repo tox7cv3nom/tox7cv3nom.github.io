@@ -17,7 +17,7 @@ with the help of curl command it looks like this:
 
 curl -i -s -k -X $'GET' -H $'Host: redaccted.net' -H $'Accept-Encoding: gzip, deflate' -H $'Accept: /' -H 
 $'Accept-Language: en' -H $'User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)' -H 
-$'x-forwarded-host: [my ngrok url] -H $'Connection: close' $'https://www.redacted.net?cb=1234> /dev/null
+$'x-forwarded-host: [my ngrok url] -H $'Connection: close' $'https://www.redacted.net?mohit=1234> /dev/null
 
 it was not working after lot of trying and resarching i added another header "X-Url-Scehme: nohttps" after that i tried so many times cache:miss
 but i continouly send request and finally it shows cache: hit means my cache got stored then i visited "https://redacted.net/api?mohit=1234" i saw my incoming request in my
