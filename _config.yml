@@ -16,7 +16,7 @@ navbar-links:
   bug hunting:
     - writeup: "https://tox7cv3nom.github.io/2020-10-28-web_cahe_posioning_to_xss_and_ssrf"
      -writeup: "https://tox7cv3nom.github.io/2020-08-05-how_i_was_able_to_pawned_website_via_escilating_webcache-deception-to-rce"
-     -writeup: "https://tox7cv3nom.github.io/2021-01-26-order-quantiity-bypass-and-csrf-leads to-disable-account-of victim"
+     -writeup: "https://tox7cv3nom.github.io/2021-01-26-order_quantiity_bypass_and_csrf_lead_to_disable_account_of_victim"
 
 
 # --- Logo --- #
