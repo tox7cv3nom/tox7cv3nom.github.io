@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: web application penster | bug hunter
+subtitle: web application penster | bug hunter | coder in c,python,assembly and bash scripting
 ---
 
 My name is mohit sharma am a self taught web application pentester who loves to break security with the following skills:
@@ -9,6 +9,9 @@ My name is mohit sharma am a self taught web application pentester who loves to 
 - web application penetration testing
 - bug hunting 
 - network pentesting 
+- linux privilege xploitation
+- reverse engeenering
+- exploit development
 
 ## About me
 
