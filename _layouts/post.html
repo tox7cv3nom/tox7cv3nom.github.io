@@ -66,16 +66,13 @@ layout: base
       </ul>
      
       {% if page.comments %}
-        <div id="hyvor-talk-view"></div>
+       
+<div id="hyvor-talk-view"></div>
 <script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 799; // DO NOT CHANGE THIS
+    var HYVOR_TALK_WEBSITE = 4168; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
         url: '{{ page.url | absolute_url }}',
         id: '{{page.id}}'
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-      {% endif %}
-    </div>
-  </div>
-</div>
