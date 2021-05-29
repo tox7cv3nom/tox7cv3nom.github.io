@@ -33,3 +33,5 @@ that was about how i escilate the web cache to rce !
 
 any privte programs :
 send it to : <a href="mailto:nhibtaungamain@gmail.com">mohit</a>
+
+tags: exploit
