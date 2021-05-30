@@ -3,7 +3,8 @@ layout: post
 published: true
 title: Simple Stack overflow Challange 
 tags:
- - bug hunting
+ - ctf
+ - stack overflow
  
 comments: true
 
