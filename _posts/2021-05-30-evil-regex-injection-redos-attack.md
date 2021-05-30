@@ -1,3 +1,14 @@
+---
+layout: post
+published: true
+title: Regex Injection Leads To Dos Attack 
+tags:
+  - Programming
+  - python3
+comments: true
+
+---
+
 # Basic plot
 In this article, I talk about how can be exploited regex to shut down the site for legitimate Users for a few hours or minutes depending on the capacity of the web application.
 
