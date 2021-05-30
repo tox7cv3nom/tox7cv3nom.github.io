@@ -21,7 +21,6 @@ description: Blogs for cybersecurity
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-- Search: "/search"
   Pentesting:
     - Web Pentesting: ""
     - HTB: "" 
