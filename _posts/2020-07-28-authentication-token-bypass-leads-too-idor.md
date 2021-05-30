@@ -4,7 +4,7 @@ published: true
 title: Authentication Token Leads to Idor
 tags:
   - Auth Token
-  - Bug Hunting
+  - bug hunting
 comments: true
 search: true
 
