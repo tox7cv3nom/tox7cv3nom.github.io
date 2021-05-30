@@ -21,16 +21,15 @@ description: Blogs for cybersecurity
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Search: "Search"
   Pentesting:
     - Web Pentesting: ""
-    - HTB: "" 
-    - Red Teaming: ""
-  Binary:
+    - Bug Hunting: ""
+  HTB: "" 
+  Red Teaming: ""
+  Exploit Development:
     - Heap: ""
     - Stack: ""
     - Exploit Writing: ""
-  Android:
   Other:
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
