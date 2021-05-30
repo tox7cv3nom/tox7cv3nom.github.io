@@ -1,15 +1,12 @@
 ---
 layout: post
 published: true
-title: web cache deception to rce
+title: Web Cache Deception To RCE
 tags:
   - bug hunting
   - 
 comments: true
 ---
-
-hello folks ! here is my article of how i was able to exploit web cache deception to obtain rce :3 i was doing resarch on web cache deception and i decide to penetst it on real web
-then i found a website which was vulnerable to web cache deception attack ..before starting attack let's clear doubt about web cache deception
 
 **concept of web cache deception**
 
