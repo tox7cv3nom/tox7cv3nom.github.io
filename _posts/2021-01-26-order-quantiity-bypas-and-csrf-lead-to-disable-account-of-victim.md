@@ -3,7 +3,7 @@ layout: post
 published: true
 title: csrf leads to disable account of arbitrary user
 tags:
- - Bug hunting
+ - bug hunting
  - csrf
  
 comments: true
