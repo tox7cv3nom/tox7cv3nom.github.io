@@ -1,3 +1,14 @@
+---
+layout: post
+published: true
+title: Simple Stack overflow Challange 
+tags:
+ - bug hunting
+ 
+comments: true
+
+---
+
 # Breakdown of program
 
 I opened the challenge and found there two files bof and bof.c let’s breakdown the function :p so the program was:
