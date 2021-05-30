@@ -1,5 +1,4 @@
 # Introduction
-
 when i saw the challenge there was two files fd and fd.c
 
 ```
