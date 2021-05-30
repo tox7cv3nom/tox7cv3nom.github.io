@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Authentication Token Leadsn To IDOR
+title: Authentication Token Leads To IDOR
 tags:
   - bug hunting
 comments: true
