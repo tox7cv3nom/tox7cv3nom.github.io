@@ -11,8 +11,7 @@ comments: true
 ---
 
 # Introduction
-
-i don't waste time by talking about myself ...i gonna share my experience of a bug "web cache poisioning" in bug bounty 
+I don't waste time by talking about myself ...i gonna share my experience of a bug "web cache poisioning" in bug bounty 
 as usually i was pentesting on private sites i saw there my <a href="https://github.com/PortSwigger/param-miner">paraminer</a> shows an unkeyed url
 with secret url Before exploiting part i wanna share my thoughts about tha bug called cache poisiong :
 
