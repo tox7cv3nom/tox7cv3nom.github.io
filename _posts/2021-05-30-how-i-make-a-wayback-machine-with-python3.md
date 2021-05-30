@@ -1,15 +1,13 @@
 ---
 layout: post
 published: true
-title: <div align="left">making a wayback machine with python3</div>
+title: making a wayback machine with python3
 tags:
   - programming
   - python3
 comments: true
 ---
-
-
-  In this tutorial i will show how we make a simple wayback machine with python 3 to extract arcieved url we will use classes and object i am assuming that you all are unsderstable with the concept of oops in python let’s start
+In this tutorial i will show how we make a simple wayback machine with python 3 to extract arcieved url we will use classes and object i am assuming that you all are unsderstable with the concept of oops in python let’s start
 first we need to import following modules:
 
 ~~~
