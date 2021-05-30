@@ -6,6 +6,8 @@ tags:
   - Auth Token
   - Bug Hunting
 comments: true
+search: true
+
 ---
 
 
@@ -24,5 +26,4 @@ any private program ?
 
 send it to : <a href="mailto:nhibtaungamain@gmail.com">@mohit</a>
 
-- tag: java
 
