@@ -9,7 +9,6 @@ comments: true
 ---
 
 **concept of web cache deception**
-
 website uses cdn's for storing local cached copy of webpage like pdf,css.etc. so that when user revisits to that website the website will work faster and also for reducing loads
 suppose two user bob and alice have two accounts on a website which is vulnerable to web cache deception alice is a hacker and bob is a victim..allice(attacker) 
 send a link to victim bob like this : 
