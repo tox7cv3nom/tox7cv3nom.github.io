@@ -2,7 +2,6 @@
 layout: post
 published: true
 tags:
-  - Auth Token
   - bug hunting
 comments: true
 search: true
