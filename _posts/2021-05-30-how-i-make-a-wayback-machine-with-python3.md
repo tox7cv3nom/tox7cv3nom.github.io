@@ -9,7 +9,6 @@ comments: true
 ---
 
 # Requirements for writing code
-
 In this tutorial i will show how we make a simple wayback machine with python 3 to extract arcieved url we will use classes and object i am assuming that you all are unsderstable with the concept of oops in python let’s start
 first we need to import following modules:
 
