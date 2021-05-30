@@ -10,7 +10,8 @@ search: true
 ---
 
 
-
+<div align="center">
+  
 ## Introduction
 
 Here is the article how i was able to bypass authentication token and able to exploit idor and add any user to add events of website ..before coming on main topic that how i find the vulnerablity let me clear your core concepts about authorization tokens 
@@ -27,4 +28,5 @@ any private program ?
 
 send it to : <a href="mailto:nhibtaungamain@gmail.com">@mohit</a>
 
+  </div>
 
