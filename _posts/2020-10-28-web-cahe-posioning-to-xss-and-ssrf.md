@@ -4,8 +4,7 @@ published: true
 title: web cache poisioing to ssrf and xss
 tags:
     - bug hunting
-    - ssrf
-    - xss
+    -ssrf
     
 comments: true
 
