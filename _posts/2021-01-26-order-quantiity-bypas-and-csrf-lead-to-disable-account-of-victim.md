@@ -4,7 +4,6 @@ published: true
 title: csrf leads to disable account of arbitrary user
 tags:
  - bug hunting
- - csrf
  
 comments: true
 
