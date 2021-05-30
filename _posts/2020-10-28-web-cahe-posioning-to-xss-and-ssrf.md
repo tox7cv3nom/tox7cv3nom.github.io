@@ -3,7 +3,9 @@ layout: post
 published: true
 title: web cache poisioing to ssrf and xss
 tags:
-    -Bug hunting
+    - Bug hunting
+    - ssrf
+    - xss
     
 comments: true
 
