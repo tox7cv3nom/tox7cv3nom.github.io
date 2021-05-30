@@ -1,3 +1,15 @@
+---
+layout: post
+published: true
+title: simple file descriptor challange
+tags:
+ - ctf
+ 
+comments: true
+
+---
+
+
 # Introduction
 when i saw the challenge there was two files fd and fd.c
 
