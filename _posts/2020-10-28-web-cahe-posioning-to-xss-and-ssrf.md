@@ -1,7 +1,8 @@
 ---
 layout: post
 published: true
-title: web cache poisioing to ssrf and xss
+title: 
+web cache poisioing to ssrf and xss
 tags:
     - Bug hunting
     - ssrf
