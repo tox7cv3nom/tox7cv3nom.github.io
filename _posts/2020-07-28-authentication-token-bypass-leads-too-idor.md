@@ -1,7 +1,6 @@
 ---
 layout: post
 published: true
-title: Authentication Token Leads to Idor
 tags:
   - Auth Token
   - bug hunting
