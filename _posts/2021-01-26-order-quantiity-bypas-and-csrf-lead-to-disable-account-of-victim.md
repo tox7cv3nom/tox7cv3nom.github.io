@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: csrf leads to disable account of arbitrary user
+title: Csrf Leads To Disable Account Of Arbitrary User
 tags:
  - bug hunting
  
@@ -9,7 +9,7 @@ comments: true
 
 ---
 
-
+# Basic Overview Of Bug
 in this article i will show how a csrf attack and cart rate limit bypass leads to ddos on victim account which leads to temprory ban of user account i was pentesting on private website it was a e-commerce website where you can buy and purchase goods after spending a litle bit time in recon i saw that there was no csrf token present at any webpage i tried to do csrf attack before i begin let's clear the concept of csrf and csrf tokens am not going deep its just a overview (that section is for newbies if you are leet you can skip this part) :-
 
 **csrf stands for cross site request forgery in this attack any attacker can force user to do arbitrary action in victim's browser unintentinaly if you don't get this line let me explain suppose you are depositing in a bank's account online and there is no csrf token on this wesbite anyone can create a lookalike page of that bank and embbebd the request to withdraw money of 1000$ with a button of submit,click etc. to his account in that lookalike when uh open and click on that button (in same browser in which uh are doing work) transaction occurs and 1000$ gone to his account without the knowledge of victim now read that upper line hope it clear your concept about csrf**
