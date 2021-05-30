@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: making a wayback machine with python3
+title: <div align="left">making a wayback machine with python3</div>
 tags:
   - programming
   - python3
@@ -9,7 +9,6 @@ comments: true
 ---
 
 
-<div align="center">
   In this tutorial i will show how we make a simple wayback machine with python 3 to extract arcieved url we will use classes and object i am assuming that you all are unsderstable with the concept of oops in python let’s start
 first we need to import following modules:
 
@@ -56,4 +55,3 @@ url i.e xyz.com #argv[1]
 limit i.e how much page we wanna scrap #argv[2]
 then we create another two variable called back and res then we assign the class to variable name back then storing results in res and with the help of for loop we print out our main output and in next line we are just calling our main function the script is hosted at <a href="https://github.com/bing0o/Python-Scripts/blob/master/waybackmachine.py" target="_top">here</a>
 i just modified it and made few changes..
-</div>
