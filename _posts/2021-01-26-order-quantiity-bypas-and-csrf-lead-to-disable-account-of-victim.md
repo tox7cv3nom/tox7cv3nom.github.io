@@ -1,9 +1,10 @@
 ---
 layout: post
 published: true
-title: csrf leads to disable account
+title: csrf leads to disable account of arbitrary user
 tags:
- -Bug hunting
+ - Bug hunting
+ - csrf
  
 comments: true
 
