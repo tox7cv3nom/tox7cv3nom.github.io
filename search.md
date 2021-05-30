@@ -1,8 +1,4 @@
 
----
-layout: page
----
-
 {{ content }}
 
 <form onsubmit="return True;">
