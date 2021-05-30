@@ -1,4 +1,18 @@
-here is the article how i was able to bypass authentication token and able to exploit idor and add any user to add events of website ..before coming on main topic that how i find the vulnerablity let me clear your core concepts about authorization tokens 
+---
+layout: post
+published: true
+title: Authentication Token Leads to Idor
+tags:
+  - Auth Token
+  - Bug Hunting
+comments: true
+---
+
+
+
+
+
+Here is the article how i was able to bypass authentication token and able to exploit idor and add any user to add events of website ..before coming on main topic that how i find the vulnerablity let me clear your core concepts about authorization tokens 
 
 **Authorization tokens : They are used to authenticate user suppose a user partha visited a website and create their accounts authorization token verifies the user each time when partha logon in website web page gives him auth token ands when he logout then token get destroyed and each time when partha login to that website he gots a new token thats the work of auth tokens..it prevents from vulnerablities like idor,csrf and cors**
 
