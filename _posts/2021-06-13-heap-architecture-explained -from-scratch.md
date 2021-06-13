@@ -1,4 +1,14 @@
+---
+layout: post
+published: true
+title: Diving In Heap glibc Architecture
+tags:
+ - exploit Development
+ - heap
+ 
+comments: true
 
+---
 This resarch paper is inspired from <a href="https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/">azeria</a> If you wanna learn and understand more I will provide resources in comment section.
 
 **Introduction of Heap and Memory**
