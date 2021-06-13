@@ -68,6 +68,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
   
   
   In arenas there is also a concept about subheap. Heap is same as Sub Hesp except Heap loaded in memory as program executed and expended by sbrk system call while the sub heap is loaded in to memory by using syscall called mmap and heap manager grow the sub heap with mprtotect to avoid memory currutption When a Heap want to create a sub heap it ask kernel to reserve a space in moemory for subheap so that sub heap can grow with the syscall mmap
+
   
  In the next post i will cover up the types of bins, flags and recycling free chunks strategies used in chunks For further reading i will add the resources you can learn from therte about heap more :
 
@@ -75,6 +76,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
  
  <a href="https://azeria-labs.com/process-memory-and-memory-corruption/">azeria heap</a>
  
+ If you wanna ssupport me for more articles you can donate me on my upi id: *mohit6398@dbs*
  
  
  
