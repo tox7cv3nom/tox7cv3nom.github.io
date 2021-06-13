@@ -62,6 +62,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
  In the next post i will cover up the types of bins, flags and recycling free chunks strategies used in chunks For further reading i will add the resources you can learn from therte about heap more :
 
  <a href="https://heap-exploitation.dhavalkapil.com/diving_into_glibc_heap">diving into glibc heap</a>
+ 
  <a href="https://azeria-labs.com/process-memory-and-memory-corruption/">azeria heap</a>
  
  
