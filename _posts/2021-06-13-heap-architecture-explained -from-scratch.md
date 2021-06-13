@@ -54,7 +54,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
    In single threadedpplication there was only one main arena so other processses have to wait untill the first one one is completed it consumes too much time In heap each Arena manages its own chunk allocation and free bins separately Main arena consist of main heap when the process starts to increasing the heap will provide second arena so that it reduce the time for waiting of thread to perform operations likes malloc and free With each new thread heap will provide diffrent arena once the limit of arenas if finished then heap has no option left except for sharing the arena with other process Second arean is created by sub heaps using the system calls mmap and mprote
  
   
-  [!alt text](https://azeria-labs.com/wp-content/uploads/2019/03/heap-arenas-CS.png)
+  ![alt text](https://azeria-labs.com/wp-content/uploads/2019/03/heap-arenas-CS.png)
   
   
   In arenas there is also a concept about subheap. Heap is same as Sub Hesp except Heap loaded in memory as program executed and expended by sbrk system call while the sub heap is loaded in to memory by using syscall called mmap and heap manager grow the sub heap with mprtotect to avoid memory currutption When a Heap want to create a sub heap it ask kernel to reserve a space in moemory for subheap so that sub heap can grow with the syscall mmap
@@ -62,6 +62,8 @@ If all stratagies fails, then there is no option left for heap manager. since, t
  In the next post i will cover up the types of bins, flags and recycling free chunks strategies used in chunks For further reading i will add the resources you can learn from therte about heap more :
 
  <a href="https://heap-exploitation.dhavalkapil.com/diving_into_glibc_heap">diving into glibc heap</a>
+ <a href="https://azeria-labs.com/process-memory-and-memory-corruption/">azeria heap</a>
+ 
  
  
  
