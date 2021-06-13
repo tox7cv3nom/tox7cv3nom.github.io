@@ -26,21 +26,21 @@ Since, heap and stack are memory regions and the data which is stored and alloca
   Basically heap works on four strategies to allocate a chunk to a region of memory I will depict all the four steps used by heap manager to allocate chunk. *CHUNKS* are the area of memory in heap whis is dynamically allocated via malloc. Now, the four steps are:
 
 
-1.*Allocation from free chunks*
+=> *Allocation from free chunks*
       
  This strategy says that if a previous chunk of memory if free by free function and that chunk is large enough to satisfy the request of allocation then heap will use that chunk The free chunks are located in the link list called *bins* whenever the heap manager needed allocation it searches in the bins for the free chunks that satisfy the request of allocation If they found the free chunk in bins then they extracted it from bins and mark the chunks as allocated That's how the strategy works 
       
-2. *Allocation from top of heap*
+=> *Allocation from top of heap*
 
 Suppose, our first strategy failed i.e the heap manager can't find the free chunks in bins that satisfiy the request of allocation. Then, heaqp manager will follow second strategy i.e heap manager will looks at the bottom of heap which is also called as *top chunk* If there is space at left at the bottom of heap then heap manager will allocate chunk from there
 
-3. *Asking Kernel for memory at top chunk*
+=> *Asking Kernel for memory at top chunk*
 
-If both strategy failed i.e heap manager can't find any free chunks in bins and also there is no space at top chunk then heap manager will ask from kernel to add some memory at the top chunk with the help of system call *sbrk* This system call is used in linux/unix operating sytem to increase the amount of memory in heap region But there is one drawback of this system call it increase too much memory of heap that leads to collapse of heap with other libraries. So, for solving this issue we use the syscall called nmmap Once the heap reaches to it's point we call nmmap syscall for not expending the heap more then it's limit
+If both strategy failed i.e heap manager can't find any free chunks in bins and also there is no space at top chunk then heap manager will ask from kernel to add some memory at the top chunk with the help of system call *sbrk* This system call is used in linux/unix operating sytem to increase the amount of memory in heap region But there is one drawback of this system call it increase too much memory of heap that leads to collapse of heap with other libraries. So, for solving this issue we use the syscall called mmap Once the heap reaches to it's point we call mmap syscall for not expending the heap more then it's limit
 
-4.  *returning Null*
+=> *returning Null*
 
-If all stratagies fails, then there is no option left for heap manager. since, there is no memory allocation malloc will retuen NUll
+If all stratagies fails, then there is no option left for heap manager. since, there is no memory allocation malloc will return NUll
 
 **strategies in short visulization**
 
@@ -51,10 +51,19 @@ If all stratagies fails, then there is no option left for heap manager. since, t
 
 **Concept of Arenas In Heap**
 
-   In single threadedpplication there was only one main arena so other processses have to wait untill the first one one is completed it consumes too much time In heap each Arena manages its own chunk allocation and free bins separately Main arena consist of main heap when the process starts to increasing the heap will provide second arena so that it reduce the time for waiting of thread to perform operations likes malloc and free With each new thread heap will provide diffrent arena once the limit of arenas if finished then heap has no option left except for sharing the arena with other process Second arean is created by sub heaps using the system calls mmap and mprotect
-
+   In single threadedpplication there was only one main arena so other processses have to wait untill the first one one is completed it consumes too much time In heap each Arena manages its own chunk allocation and free bins separately Main arena consist of main heap when the process starts to increasing the heap will provide second arena so that it reduce the time for waiting of thread to perform operations likes malloc and free With each new thread heap will provide diffrent arena once the limit of arenas if finished then heap has no option left except for sharing the arena with other process Second arean is created by sub heaps using the system calls mmap and mprote
  
   
+  [!alt text](https://azeria-labs.com/wp-content/uploads/2019/03/heap-arenas-CS.png)
+  
+  
+  In arenas there is also a concept about subheap. Heap is same as Sub Hesp except Heap loaded in memory as program executed and expended by sbrk system call while the sub heap is loaded in to memory by using syscall called mmap and heap manager grow the sub heap with mprtotect to avoid memory currutption When a Heap want to create a sub heap it ask kernel to reserve a space in moemory for subheap so that sub heap can grow with the syscall mmap
+  
+ In the next post i will cover up the types of bins, flags and recycling free chunks strategies used in chunks For further reading i will add the resources you can learn from therte about heap more :
 
-
-
+ <a href="https://heap-exploitation.dhavalkapil.com/diving_into_glibc_heap">diving into glibc heap</a>
+ 
+ 
+ 
+  
+  
