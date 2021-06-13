@@ -57,7 +57,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
 1. Allocation of previously used chunk
 2. If there is space at top chunk then use it
 3. otherwise ask kernel to add memory at top chunk
-4. If all fail then malloc will retuen null
+4. If all fail then malloc will return null
 
 **Concept of Arenas In Heap**
 
