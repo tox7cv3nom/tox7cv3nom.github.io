@@ -28,7 +28,7 @@ Since, heap and stack are memory regions and the data which is stored and alloca
 
 1.*Allocation from free chunks*
       
-      This strategy says that if a previous chunk of memory if free by free function and that chunk is large enough to satisfy the request of allocation then heap will use that chunk The free chunks are located in the link list called *bins* whenever the heap manager needed allocation it searches in the bins for the free chunks that satisfy the request of allocation If they found the free chunk in bins then they extracted it from bins and mark the chunks as allocated That's how the strategy works 
+ This strategy says that if a previous chunk of memory if free by free function and that chunk is large enough to satisfy the request of allocation then heap will use that chunk The free chunks are located in the link list called *bins* whenever the heap manager needed allocation it searches in the bins for the free chunks that satisfy the request of allocation If they found the free chunk in bins then they extracted it from bins and mark the chunks as allocated That's how the strategy works 
       
 2. *Allocation from top of heap*
     
