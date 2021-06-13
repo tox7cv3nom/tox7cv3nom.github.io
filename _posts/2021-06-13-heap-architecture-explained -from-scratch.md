@@ -50,7 +50,9 @@ If all stratagies fails, then there is no option left for heap manager. since, t
 4. If all fail then malloc will retuen null
 
 **Concept of Arenas In Heap**
-    
+
+   In single threadedpplication there was only one main arena so other processses have to wait untill the first one one is completed it consumes too much time In heap each Arena manages its own chunk allocation and free bins separately Main arena consist of main heap when the process starts to increasing the heap will provide second arena so that it reduce the time for waiting of thread to perform operations likes malloc and free With each new thread heap will provide diffrent arena once the limit of arenas if finished then heap has no option left except for sharing the arena with other process Second arean is created by sub heaps using the system calls mmap and mprotect
+
  
   
 
