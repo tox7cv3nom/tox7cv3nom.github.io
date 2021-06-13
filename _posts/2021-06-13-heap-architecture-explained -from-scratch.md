@@ -21,4 +21,18 @@ Heap is used by program to allocate region during program execution. the allocat
 
 Since, heap and stack are memory regions and the data which is stored and allocate in this region is provided by user as user input variable so user can overwrite eip registers, remote code execution, overflow the heap and stack etc. This all can be done by injecting payload in memory region  and it's called *Memory Curruption*. Memory curruption bug leads to modification of memory that leads to remote code execution, overflows etc.
 
+**Strategies of Heap To Allocate Chunks**
+
+  Basically heap works on four strategies to allocate a chunk to a region of memory I will depict all the four steps used by heap manager to allocate chunk. *CHUNKS* are the area of memory in heap whis is dynamically allocated via malloc. Now, the four steps are:
+
+
+1.*Allocation from free chunks*
+      This strategy says that if a previous chunk of memory if free by free function and that chunk is large enough to satisfy the request of allocation then heap will use that chunk The free chunks are located in the link list called *bins* whenever the heap manager needed allocation it searches in the bins for the free chunks that satisfy the request of allocation If they found the free chunk in bins then they extracted it from bins and mark the chunks as allocated That's how the strategy works 
+      
+2. *Allocation from top of heap*
+    
+ 
+  
+
+
 
