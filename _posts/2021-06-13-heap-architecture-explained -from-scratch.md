@@ -31,6 +31,25 @@ Since, heap and stack are memory regions and the data which is stored and alloca
  This strategy says that if a previous chunk of memory if free by free function and that chunk is large enough to satisfy the request of allocation then heap will use that chunk The free chunks are located in the link list called *bins* whenever the heap manager needed allocation it searches in the bins for the free chunks that satisfy the request of allocation If they found the free chunk in bins then they extracted it from bins and mark the chunks as allocated That's how the strategy works 
       
 2. *Allocation from top of heap*
+
+Suppose, our first strategy failed i.e the heap manager can't find the free chunks in bins that satisfiy the request of allocation. Then, heaqp manager will follow second strategy i.e heap manager will looks at the bottom of heap which is also called as *top chunk* If there is space at left at the bottom of heap then heap manager will allocate chunk from there
+
+3. *Asking Kernel for memory at top chunk*
+
+If both strategy failed i.e heap manager can't find any free chunks in bins and also there is no space at top chunk then heap manager will ask from kernel to add some memory at the top chunk with the help of system call *sbrk* This system call is used in linux/unix operating sytem to increase the amount of memory in heap region But there is one drawback of this system call it increase too much memory of heap that leads to collapse of heap with other libraries. So, for solving this issue we use the syscall called nmmap Once the heap reaches to it's point we call nmmap syscall for not expending the heap more then it's limit
+
+4.  *returning Null*
+
+If all stratagies fails, then there is no option left for heap manager. since, there is no memory allocation malloc will retuen NUll
+
+**strategies in short visulization**
+
+1. Allocation of previously used chunk
+2. If there is space at top chunk then use it
+3. otherwise ask kernel to add memory at top chunk
+4. If all fail then malloc will retuen null
+
+**Concept of Arenas In Heap**
     
  
   
