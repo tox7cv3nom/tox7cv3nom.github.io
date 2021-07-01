@@ -105,10 +105,6 @@ share-links-active:
   linkedin: true
   vk: false
 
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-#url-pretty: ""
-
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
 
@@ -196,7 +192,6 @@ disqus: "tox7cv3nom-github-io-1.disqus.com"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
