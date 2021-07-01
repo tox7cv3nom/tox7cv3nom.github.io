@@ -196,7 +196,7 @@ disqus: "tox7cv3nom-github-io-1.disqus.com"
 title-separator: "-"
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+#date_format: "%B %-d, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
