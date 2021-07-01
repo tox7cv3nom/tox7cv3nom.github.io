@@ -23,7 +23,7 @@ navbar-links:
   Pentesting:
     - Web Pentesting: "https://tox7cv3nom.github.io/2021-05-30-abuse-auth-token-to-get-account-takeover-via-chained-csrf/"
                       "https://tox7cv3nom.github.io/2020-10-28-web-cahe-posioning-to-xss-and-ssrf/"
-    - Bug Hunting: ""
+     - Bug hunting: ""
   Red Teaming: ""
   Exploit Development:
     - Heap: "https://tox7cv3nom.github.io/2021-06-13-heap-glibc-architecture/"
