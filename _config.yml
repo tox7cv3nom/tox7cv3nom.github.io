@@ -63,7 +63,6 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
   name: Mohit Sharma
 
 # Select your active Social Network Links.
@@ -105,7 +104,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "v3nom"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
