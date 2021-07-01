@@ -1,6 +1,10 @@
 {% if page.comments %}        
-  {% include disqus.html %}
-  {% include fb-comment.html %}
-  {% include staticman-comments.html %}
-  {% include utterances-comment.html %}
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.utterances.repository }}"
+        issue-term="{{ site.utterances.issue-term }}"
+        theme="{{ site.utterances.theme}}"
+        label="{{ site.utterances.label}}" 
+        crossorigin="anonymous"
+        async>
+</script>
 {% endif %}
