@@ -5,6 +5,12 @@ title: Noob Pentester
 # Short description of your site
 description: pentester blogs
 
+---
+layout: default
+comments: true
+# other options
+---
+
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -157,6 +163,7 @@ footer-link-col: "#404040"
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: ""
+---
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
