@@ -25,7 +25,7 @@ navbar-links:
     - Bug Hunting: ""
   Red Teaming: ""
   Exploit Development:
-    - Heap: ""
+    - Heap: "https://tox7cv3nom.github.io/2021-06-13-heap-glibc-architecture/"
     - Stack: ""
     - Exploit Writing: ""
     - ctf: ""
