@@ -21,7 +21,7 @@ description: pentester blogs
 navbar-links:
   About Me: "aboutme"
   Pentesting:
-    - Web Pentesting: ""
+    -  Web Pentesting: ""
      - Bug hunting: ""
   Red Teaming: ""
   Exploit Development:
