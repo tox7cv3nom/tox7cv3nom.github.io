@@ -30,6 +30,7 @@ navbar-links:
     - Exploit Writing: ""
     - ctf: ""
   Other:
+  
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "https://mangathrill.com/wp-content/uploads/2021/03/pjimage-20-696x392.jpg"
@@ -159,7 +160,6 @@ footer-link-col: "#404040"
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 disqus: "tox7cv3nom-github-io-1.disqus.com"
----
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
