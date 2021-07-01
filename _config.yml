@@ -21,8 +21,7 @@ description: pentester blogs
 navbar-links:
   About Me: "aboutme"
   Pentesting:
-    - Web Pentesting: "https://tox7cv3nom.github.io/2021-05-30-abuse-auth-token-to-get-account-takeover-via-chained-csrf/"
-                      "https://tox7cv3nom.github.io/2020-10-28-web-cahe-posioning-to-xss-and-ssrf/"
+    - Web Pentesting: ""
      - Bug hunting: ""
   Red Teaming: ""
   Exploit Development:
