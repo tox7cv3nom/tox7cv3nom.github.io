@@ -29,6 +29,7 @@ navbar-links:
     - Stack: ""
     - Exploit Writing: ""
     - ctf: ""
+   Search: ""
   Other:
   
 # Image to show in the navigation bar - image must be a square (width = height)
