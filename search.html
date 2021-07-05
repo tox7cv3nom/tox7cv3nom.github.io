@@ -274,20 +274,30 @@ ew-ru=\
   </body>
 </html>
 
-Powered by <a href="/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/">lunr.js</a>.
+ <main id="main" class="main-content" aria-label="Content">
+  <article>
+    
 
-<br/>&nbsp;
-<form action="get" id="site_search">
-<center>
-  <input style="font-size:20px;" type="text" id="search_box">
-  <input style="font-size:20px;" type="submit" value="Go!">
-</center>
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title">Search</h1>
+        
+      </header>
+      <div class="page-content">
+        
+
+
+<form onsubmit="return false;">
+  <input type="input" id="search" class="search-input" placeholder="Enter your search term..." autofocus>
 </form>
-<br/>&nbsp;
-<br/>&nbsp;
 
-<ul id="search_results"></ul>
+<div id="results"></div>
 
-<script src="/js/lunr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/search.js"></script>
+
+        
+      </div>
+    </div>
+  </article>
+</main>
