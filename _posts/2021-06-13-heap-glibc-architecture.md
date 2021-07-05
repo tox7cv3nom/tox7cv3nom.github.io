@@ -76,7 +76,7 @@ If all stratagies fails, then there is no option left for heap manager. since, t
  
  <a href="https://azeria-labs.com/process-memory-and-memory-corruption/">azeria heap</a>
  
- **If you wanna ssupport me for more articles you can donate me on my upi id: *mohit6398@dbs*
+ **If you wanna ssupport me for more articles you can donate me on my upi id: **mohit6398@dbs**
  
  
  
