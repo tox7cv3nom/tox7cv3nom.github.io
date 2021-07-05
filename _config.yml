@@ -15,13 +15,6 @@ description: pentester blogs
 # baseurl should be an empty string
 #baseurl: ""
 
-# Liquid
-liquid:
-  error_mode: strict
-
-# Search
-search_full_content: false
-
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
