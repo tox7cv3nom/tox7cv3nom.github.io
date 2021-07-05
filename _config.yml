@@ -15,6 +15,23 @@ description: pentester blogs
 # baseurl should be an empty string
 #baseurl: ""
 
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
