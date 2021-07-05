@@ -5,6 +5,8 @@ layout: page
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
+{% include search-lunr.html %}
+
 
 <div class="posts-list">
   {% for post in posts %}
